@@ -18,7 +18,7 @@ async function priceline(){
      var title = await driver.getTitle();
      console.log('Title is:',title);
 
-    //  await driver.quit();
+     await driver.quit();
 };
 
 priceline();
